@@ -6,14 +6,15 @@
   "repository": "https://github.com/joeartsea/node-red-heroku.git",
   "logo": "http://nodered.org/node-red.png",
   "success_url": "/",
+  "stack" : "container",
   "env": {
     "NODE_RED_PASSWORD": {
       "description": "The password to secure the editor.",
-      "value": ""
+      "value": "admin"
     },
     "NODE_RED_USERNAME": {
       "description": "The username to secure the editor.",
-      "value": ""
+      "value": "admin"
     }
   },
   "addons": [
