@@ -1,12 +1,10 @@
 {
-    "name"         : "node-red-heroku",
-    "version"      : "0.0.2",
-    "dependencies": {
-        "when": "~3.x",
-        "pg": "^8.3.0",
-        "nano": "~5.11.0",
-        "feedparser":"~0.19.2",
-        "redis":"~0.10.1",
-        "node-red": "~1.x"
-    }
+  "dependencies": {
+    "feedparser": "^2.2.10",
+    "nano": "^9.0.1",
+    "node-red": "^1.2.6",
+    "pg": "^8.5.1",
+    "redis": "^3.0.2",
+    "when": "^3.7.8"
+  }
 }

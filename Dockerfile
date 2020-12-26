@@ -33,7 +33,9 @@ WORKDIR /home/node-red/
 # Chmod Scripts
 RUN chmod 755 *.sh
 
+RUN export PATH=$(npm bin):$PATH
+
 # Install Extra Node-Red nodes
 RUN ./setup.sh
 
-ENTRYPOINT ["bash start.sh"]
+CMD ["start.sh"]
